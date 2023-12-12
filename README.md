@@ -2,8 +2,8 @@
 
 <h1> PROJETO NETFLIX-SENAC </h1>
 
-O projeto tem como objetivo a criação de um banco de dados para estudo da linguagem SQL, para o curso de banco de dados do SENAC, ministrado pela professora Tereza Oliveira.
-O exercício proposto, foi a a criação de um banco de dados que espelhasse a ideia do stream NETFLIX, seguindo três etapas
+O projeto visa a criação de um banco de dados para estudo da linguagem SQL, para o curso de banco de dados do SENAC, ministrado pela professora Tereza Oliveira.
+O exercício proposto, foi a criação de um banco de dados que espelhasse a ideia do streaming NETFLIX, seguindo três etapas
 
 Etapa 1 - Modelo Entidade-Relacionamento (MER):
 - Explicação sobre a estrutura do MER na Netflix, destacando as entidades principais.
@@ -21,8 +21,8 @@ dados.
 - Exemplos de consultas SQL comuns na Netflix;
 - Simulação de consultas no SGDB de preferência do grupo;
 
-Nossa logico foi contruir um projeto simples, mas robusto que contemplasse fatores como usuário, valores de conta, catalogo de filmes, classificações e histórico de filmes assistidos.
-Em nossa visão, acreditamos que esta composição de tabela seja suficinente para demosntrar nosso conhecimento adquirifo no decorrer deste curso.
+Nossa logica foi construir um projeto simples, mas robusto que contemplasse fatores como usuário, valores de conta, catalogo de filmes, classificações e histórico de filmes assistidos.
+Em nossa visão, acreditamos que esta composição de tabela seja suficiente para demonstrar nosso conhecimento adquirido no decorrer deste curso.
 
 <h2>1 - ETAPA 1 - MODELO ENTIDADE-RELACIONAMENTO (MER)</h2>
 
@@ -117,10 +117,10 @@ Um para muitos com "Usuario" (uma assinatura pertence a um único usuário, mas 
 
 <h2>Etapa 2 - Modelo de Entidade e Relacionamento (DER):</h2>
 
-Em nossa visão a estruturação de tabela irá se comportar conforme imágem abaixo
+Em nossa visão a estruturação de tabela irá se comportar conforme imagem abaixo
 
 <<img src="Imagens\Modelo Logico.jpg" />
 
 <h2>Etapa 3 - Implementação de SQL na Netflix:</h2>
 
-Essa etapa encontra-se nas pasta banco. onde colocamos todos os SQL que desenvolvemos 
+Essa etapa encontra-se na pasta banco. Onde colocamos todos os SQL que desenvolvemos 
