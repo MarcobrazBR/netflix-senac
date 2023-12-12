@@ -119,4 +119,8 @@ Um para muitos com "Usuario" (uma assinatura pertence a um único usuário, mas 
 
 Em nossa visão a estruturação de tabela irá se comportar conforme imágem abaixo
 
-<<img src="Images/Modelo Logico.jpg" />
+<<img src="Imagens\Modelo Logico.jpg" />
+
+<h2>Etapa 3 - Implementação de SQL na Netflix:</h2>
+
+Essa etapa encontra-se nas pasta banco. onde colocamos todos os SQL que desenvolvemos 
