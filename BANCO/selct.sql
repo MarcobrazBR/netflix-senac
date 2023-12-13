@@ -1,1 +1,31 @@
-select * from usuarios
+-- CONSULTAS DE ANALISE DE DADOS DO BANCO NETFLIX_SENAC
+
+
+---CONSULTA FIME CATEGORIA
+
+
+SELECT titulo FROM
+filme
+UNION ALL
+SELECT nome FROM
+categoria;
+
+
+---CONSULTA DE HISTÓRICO DE FILMES ASSISTIDOS
+
+SELECT id FROM
+assinatura
+INTERSECT
+SELECT id FROM
+historico assistdo;
+
+
+----LISTA DE CLIENTES  "A" a "G"
+
+SELECT nome FROM usuario WHERE
+nome BETWEEN 'A' AND 'G';
+
+
+----- LISTA DE FILMES QUE TIVEREAM COMENTARIO DE GOSTEI 
+
+SELECT * FROM Avaliacao WHERE comentario = 'Gostei';
