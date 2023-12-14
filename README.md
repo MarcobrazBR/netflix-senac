@@ -119,8 +119,31 @@ Um para muitos com "Usuario" (uma assinatura pertence a um único usuário, mas 
 
 Em nossa visão a estruturação de tabela irá se comportar conforme imagem abaixo
 
-<<img src="Imagens\Modelo Logico.jpg" />
+<img src="Imagens\Modelo Logico.jpg" />
 
 <h2>Etapa 3 - Implementação de SQL na Netflix:</h2>
 
 Essa etapa encontra-se na pasta banco. Onde colocamos todos os SQL que desenvolvemos 
+
+No Mysql criamos um banco de dados para iniciar nosso estudo, com demonstramos na imagem abaixo.
+
+<img src="Imagens\BANCO DE DADOS NO MYSQL.png" />
+
+
+Após a implementação de banco e de popular as tabelas iniciamos nossas primeiras consultas, a princiípio realizamos o seleção simples de todas as tabelas do banco.
+
+<img src="Imagens\CONSULTA DE TODAS AS TABELAS.png" />
+
+Concluindo essa faze começamos a verificar quais poderiam ser os senários de relatórios poderiamos criar. Iniciamos como um select para ver a quantidade de usuários que viram filmes.
+
+<img src="Imagens\CONSULTA DE FILMES QUE USUSÁRIOS VIRAM.png" />
+
+Depois consultamos quais filmes foram avaliados pelos usuários 
+
+
+<img src="Imagens\CONSULTA DE DE FILMES COM AVALIAÇÕES.png" />
+
+Ne sequencia, buscamos os filmes que ficaram com classificação entre "2" e "4" e quais filmes foram assisntido entre uma data específica 
+
+<img src="Imagens\CONSULTA DE DE FILMES COM CLASSIFICAÇÃO ENTRE 2 E 4.png" />
+<img src="Imagens\CONSULTA DE USUARIOS ENTRE DATAS.png" />
